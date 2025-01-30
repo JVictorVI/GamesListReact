@@ -1,0 +1,112 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 500px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #00000090;
+  padding-block: 15px;
+  border-radius: 20px;
+  margin-block: 20px;
+}
+
+.h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.text {
+  color: #999;
+  padding-bottom: 15px;
+  font-size: 20px;
+  bottom: 50px;
+}
+
+.input {
+  margin: 5px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+.label {
+  padding: 5px;
+}
+
+.input:focus {
+  outline: 1px solid #999;
+}
+
+.input:hover {
+  border: 1px solid #666;
+  background-color: #f0f0f0;
+}
+
+.button {
+  background-color: white;
+  color: #181414;
+  height: 50px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: large;
+  margin-top: 20px;
+}
+
+.button:hover {
+  border: 1px solid whitesmoke;
+  box-shadow: 0 0 10px 0 whitesmoke;
+}
+
+.backbutton {
+  margin: 10px;
+  background-color: #181414;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  width: 250px;
+  font-size: large;
+}
+
+.backbutton:hover {
+  box-shadow: 0 0 10px 0 whitesmoke;
+}
+
+.category {
+  margin: 5px;
+  padding: 10px;
+  width: 275px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.category:hover {
+  border: 1px solid #666;
+  background-color: #f0f0f0;
+}
+
+.category:focus {
+  outline: 1px solid #999;
+}
+
+.subcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 15px;
+}

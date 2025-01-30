@@ -1,0 +1,90 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)),
+    url("../../assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1; /* Garante que fique atrás de todo o conteúdo */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+  background-color: #00000090;
+  padding: 40px;
+  margin-block: 10px;
+  border-radius: 15px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.input:hover {
+  box-shadow: 0 0 10px white;
+}
+
+.input:focus {
+  outline: 1px solid white;
+}
+
+.text {
+  color: white;
+  word-wrap: break-word;
+}
+
+.button {
+  background-color: white;
+  color: #181414;
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: large;
+  margin-top: 20px;
+}
+
+.button:hover {
+  border: 1px solid whitesmoke;
+  box-shadow: 0 0 10px 0 whitesmoke;
+}
+
+.backbutton {
+  margin: 10px;
+  background-color: transparent;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  font-size: large;
+}
+
+.backbutton:hover {
+  box-shadow: 0 0 10px 0 whitesmoke;
+}
+
+.msg {
+  display: flex;
+  width: 200px;
+}
+
+.h1 {
+  color: white;
+  font-size: 50px;
+  margin: 30px;
+}

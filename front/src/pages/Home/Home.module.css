@@ -1,0 +1,20 @@
+.floatbutton {
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-color: whitesmoke;
+}
+
+.floatbutton:hover {
+  background-color: whitesmoke;
+  color: #181414;
+  box-shadow: 0 0 10px 0 whitesmoke;
+}

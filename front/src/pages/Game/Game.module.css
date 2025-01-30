@@ -1,0 +1,131 @@
+.CoverContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espaço entre as seções */
+  padding: 50px;
+}
+
+.ImageAndText {
+  display: flex;
+  align-items: center; /* Alinha a imagem e o texto no topo */
+  gap: 20px; /* Espaço entre a imagem e o texto */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .ImageAndText {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .TextContainer {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.GameCover {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px white;
+}
+
+.TextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 550px;
+  gap: 5px;
+}
+
+.BackButton {
+  margin: 10px;
+  background-color: transparent;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  font-size: large;
+}
+
+.BackButton:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px 0 whitesmoke;
+}
+
+.UpdateButton {
+  margin: 10px;
+  background-color: transparent;
+  color: green;
+  border: 1px solid green;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  font-size: large;
+}
+
+.UpdateButton:hover {
+  background-color: #5b913b;
+  box-shadow: 0 0 10px 0 green;
+  color: white;
+}
+
+.DeleteButton {
+  margin: 10px;
+  background-color: transparent;
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  font-size: large;
+}
+
+.DeleteButton:hover {
+  background-color: darkred;
+  box-shadow: 0 0 10px 0 red;
+  color: white;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .buttonsContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+}
+
+.ScreenshotsContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .ScreenshotsContainer {
+    grid-template-columns: auto;
+  }
+}
+.ScreenshotsContainer img {
+  max-width: 250px;
+  border-radius: 5px;
+}

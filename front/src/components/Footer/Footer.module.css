@@ -1,0 +1,22 @@
+.footer {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+}
+
+.footer p {
+  color: white;
+  font-size: smaller;
+  font-weight: lighter;
+}
+
+.content {
+  padding: 20px;
+  padding-bottom: 40px; /* Espaço reservado para o footer */
+}
