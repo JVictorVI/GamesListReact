@@ -9,6 +9,8 @@ A aplicação conta com um sistema de registro e login de usuários, para garant
 
 O projeto conta com uma integração de um banco de dados SQL hospedado em nuvem no Tembo.io e hosteado de maneira online no Vercel.
 
+É necessário criação de usuário no projeto para poder acessar, pode ser com e-mail fictício.
+
 (Devido o uso de contas de categoria gratuita/hooby, o banco de dados hospedado em nuvem pode ser temporariamente pausado de forma automática, necessitando ser reiniciado para garantir o pleno funcionamento da aplicação)
 
 # Link
